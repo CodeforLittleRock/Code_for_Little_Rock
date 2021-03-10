@@ -1,0 +1,39 @@
+{
+  "name": "cflr",
+  "version": "1.0.0",
+  "description": "We will lay out our proposal and development plans. Here we will list our MVP for the project. We intend this to be a portal for Arkansans to find the technology and reach they need to have a greater range to those who need it. We will provide resources for community organizers and non-profit organizations.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeforLittleRock/Code_for_Little_Rock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeforLittleRock/Code_for_Little_Rock/issues"
+  },
+  "homepage": "https://github.com/CodeforLittleRock/Code_for_Little_Rock#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "concurrently": "^6.0.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2"
+  }
+}
