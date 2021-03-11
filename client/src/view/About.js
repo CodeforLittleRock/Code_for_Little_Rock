@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Nav() {
+export default function About() {
   return (
     <div>
-      Nav
+      About
     </div>
   )
 }
