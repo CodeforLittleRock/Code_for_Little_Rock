@@ -19,7 +19,7 @@ import About from './view/About';
 
 // Controllers- What the User Interacts With
 import Nav from './controller/navigation/Nav';
-import Footer from './controller/Footer';
+import Footer from './controller/navigation/Footer';
 
 // Models- What the Controllers Manipulate
 
